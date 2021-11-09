@@ -15,7 +15,7 @@ from settings import (
 
 SQLALCHEMY_DATABASE_URL = (
     f"mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}"
-    f"@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DATABASE}?charset=utf8mb4"
+    f"@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DATABASE}?charset=utf8"
 )
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 

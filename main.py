@@ -2,8 +2,6 @@
 # @Time    : 2021/11/6 21:24
 # @Author  : JAKE4545
 # @Email   : tmwu2018@163.com
-
-from fastapi import FastAPI
 import time
 import uvicorn
 from fastapi import FastAPI, Request

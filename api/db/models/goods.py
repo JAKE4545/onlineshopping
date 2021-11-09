@@ -3,7 +3,7 @@
 # @Author  : JAKE4545
 # @Email   : tmwu2018@163.com
 import ormar
-from . import BaseMeta
+from .base import BaseMeta
 
 class SKUImage(ormar.Model):
     class Meta(BaseMeta):
